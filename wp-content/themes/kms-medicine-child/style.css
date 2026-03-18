@@ -1,0 +1,44 @@
+/* Убрать отступ от админ-бара */
+
+html {
+  margin-top: 20px !important;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Сброс отступов */
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden; 
+  width: 100%;
+  max-width: 100vw; 
+}
