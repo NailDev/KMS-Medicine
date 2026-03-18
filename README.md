@@ -27,11 +27,15 @@ git clone https://github.com/NailDev/KMS-Medicine.git
 cd KMS-Medicine
 ```
 2. Настройка окружения
+```bash
 cp .env.example .env
+```
 
 3. Запуск Docker-контейнеров
+```bash
 docker-compose up -d
-   
+```
+
 4. Установка WordPress
 1) Откройте браузер: http://localhost:8080 
 
