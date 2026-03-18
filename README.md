@@ -157,3 +157,40 @@ Email: mardanov.nael@yandex.ru
 Telegram: @Not_loveFty
 
 GitHub: https://github.com/NailDev 
+
+⚡ Возможные проблемы и решения
+1. Ошибка прав доступа к wp-content
+bash
+sudo chmod -R 777 wp-content
+(для Linux/Mac)
+
+2. Порт 8080 уже занят
+Измените порт в docker-compose.yml:
+
+yaml
+ports:
+  - "8081:80"  # вместо 8080
+3. Ошибка Call to undefined function get_field()
+Активируйте плагин Advanced Custom Fields (ACF):
+
+Админка → Плагины → Установленные
+
+Найдите ACF и нажмите "Активировать"
+
+4. Docker не запускается на Windows
+Убедитесь, что Docker Desktop установлен и запущен
+
+Проверьте, что в BIOS включена виртуализация
+
+Выполните wsl --update в командной строке
+
+🖼️ Скриншоты
+<img width="1764" height="664" alt="Снимок экрана 2026-03-18 181830" src="https://github.com/user-attachments/assets/567c95b5-8638-4c4f-a66e-23d3912dc1f3" />
+<img width="1748" height="826" alt="Снимок экрана 2026-03-18 181811" src="https://github.com/user-attachments/assets/6e0482ad-388e-4180-b51d-fc3549c2585a" />
+<img width="1744" height="593" alt="Снимок экрана 2026-03-18 181800" src="https://github.com/user-attachments/assets/ba5dd436-3ae1-4df0-ae3b-a4b3623df494" />
+<img width="1795" height="835" alt="Снимок экрана 2026-03-18 181751" src="https://github.com/user-attachments/assets/f20f81d7-0520-4dcb-b631-0224bc7ade94" />
+<img width="1778" height="901" alt="Снимок экрана 2026-03-18 181733" src="https://github.com/user-attachments/assets/23f14d10-710d-4969-ab38-bbc0fb17f4a2" />
+<img width="1748" height="832" alt="Снимок экрана 2026-03-18 181715" src="https://github.com/user-attachments/assets/a8bdb3d5-ebc1-4ceb-89d1-7d5c4eb1f7ee" />
+<img width="1843" height="908" alt="Снимок экрана 2026-03-18 181704" src="https://github.com/user-attachments/assets/39a4abd3-9069-4e5b-9593-0a4b55cc293f" />
+<img width="1866" height="1018" alt="Снимок экрана 2026-03-18 181656" src="https://github.com/user-attachments/assets/7e07afcb-026d-4f29-9d3d-45b50299b155" />
+
