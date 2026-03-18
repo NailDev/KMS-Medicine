@@ -730,15 +730,6 @@ margin-right: 30px;
   flex: 0 0 auto;
 }
 
-/* .why-us__image-wrapper {
-  width: 285px;
-  height: 127px;
-  border-radius: var(--r-30);
-  overflow: hidden;
-  background: var(--c-surface);
-  flex: 0 0 auto;
-} */
-
 .why-us__image {
   width: 100%;
   height: 100%;
