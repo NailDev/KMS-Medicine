@@ -80,6 +80,57 @@
     </div>
   </div>
 </footer>
+<!-- Slick Slider CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+<!-- Slick Slider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+jQuery(document).ready(function($) {
+    // Запускаем слайдер
+    $('.work-steps__track').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '0px',
+        arrows: true,
+        dots: false,
+        infinite: true,
+        prevArrow: '<button type="button" class="slick-prev">←</button>',
+        nextArrow: '<button type="button" class="slick-next">→</button>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: false
+                }
+            }
+        ]
+    });
+
+    // Функция обновления цвета цифр
+    function updateNumbers() {
+        // Сначала все цифры делаем серыми
+        $('.work-steps__card-number').css('color', '#838383');
+        
+        // Находим центральный слайд и делаем его цифру красной
+        setTimeout(function() {
+            $('.slick-center .work-steps__card-number').css('color', '#900008');
+        }, 100);
+    }
+
+    // При загрузке
+    setTimeout(updateNumbers, 200);
+
+    // При смене слайда
+    $('.work-steps__track').on('afterChange', function() {
+        updateNumbers();
+    });
+});
+</script>
 
 <?php wp_footer(); ?>
 </body>

@@ -99,3 +99,26 @@ jQuery(document).ready(function($) {
         }
     });
 });
+jQuery(document).ready(function($) {
+    $('.work-steps__track').slick({
+        slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: '<button class="slider-arrow prev">←</button>',
+    nextArrow: '<button class="slider-arrow next">→</button>',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+});
