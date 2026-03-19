@@ -185,12 +185,12 @@ ports:
 Выполните wsl --update в командной строке
 
 🖼️ Скриншоты
-<img width="1764" height="664" alt="Снимок экрана 2026-03-18 181830" src="https://github.com/user-attachments/assets/567c95b5-8638-4c4f-a66e-23d3912dc1f3" />
-<img width="1748" height="826" alt="Снимок экрана 2026-03-18 181811" src="https://github.com/user-attachments/assets/6e0482ad-388e-4180-b51d-fc3549c2585a" />
-<img width="1744" height="593" alt="Снимок экрана 2026-03-18 181800" src="https://github.com/user-attachments/assets/ba5dd436-3ae1-4df0-ae3b-a4b3623df494" />
-<img width="1795" height="835" alt="Снимок экрана 2026-03-18 181751" src="https://github.com/user-attachments/assets/f20f81d7-0520-4dcb-b631-0224bc7ade94" />
-<img width="1778" height="901" alt="Снимок экрана 2026-03-18 181733" src="https://github.com/user-attachments/assets/23f14d10-710d-4969-ab38-bbc0fb17f4a2" />
-<img width="1748" height="832" alt="Снимок экрана 2026-03-18 181715" src="https://github.com/user-attachments/assets/a8bdb3d5-ebc1-4ceb-89d1-7d5c4eb1f7ee" />
-<img width="1843" height="908" alt="Снимок экрана 2026-03-18 181704" src="https://github.com/user-attachments/assets/39a4abd3-9069-4e5b-9593-0a4b55cc293f" />
-<img width="1866" height="1018" alt="Снимок экрана 2026-03-18 181656" src="https://github.com/user-attachments/assets/7e07afcb-026d-4f29-9d3d-45b50299b155" />
-
+<img width="1920" height="977" alt="2026-03-19_20-27-50" src="https://github.com/user-attachments/assets/c5c85727-4513-44c3-b27b-fe4e11aba2bb" />
+<img width="1920" height="828" alt="2026-03-19_20-28-36" src="https://github.com/user-attachments/assets/72051bb4-8e6e-435d-8d07-d94430a9d3f3" />
+<img width="1920" height="898" alt="2026-03-19_20-29-16" src="https://github.com/user-attachments/assets/4a61120b-b114-4647-900c-a6e6311964c8" />
+<img width="1920" height="837" alt="2026-03-19_20-30-07" src="https://github.com/user-attachments/assets/f2aa8172-9343-4fcb-9ee3-a51b617d9ed2" />
+<img width="1920" height="814" alt="2026-03-19_20-30-25" src="https://github.com/user-attachments/assets/6fd6704c-3a8d-4dc9-9917-00930daf129d" />
+<img width="1920" height="802" alt="2026-03-19_20-30-46" src="https://github.com/user-attachments/assets/94e8c9b5-6169-463a-9bec-62906278641c" />
+<img width="1920" height="695" alt="2026-03-19_20-31-05" src="https://github.com/user-attachments/assets/cb1d39be-c5ae-451e-be92-49123b29f5b8" />
+<img width="1488" height="861" alt="2026-03-19_20-33-09" src="https://github.com/user-attachments/assets/1b5b3049-fa21-4955-8457-dbb1e7b3f98f" />
+<img width="1920" height="634" alt="2026-03-19_20-33-40" src="https://github.com/user-attachments/assets/b3390a24-2b13-4efa-873d-1a2b0724ec88" />
