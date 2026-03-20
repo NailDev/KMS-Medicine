@@ -40,6 +40,8 @@
           <a href="#services" class="footer__nav-link">Услуги</a>
           <a href="#prices" class="footer__nav-link">Цены</a>
         </div>
+
+        
         
         <div class="footer__nav-col">
           <a href="#advantages" class="footer__nav-link">О нас</a>
@@ -71,6 +73,7 @@
           </a>
         </div>
       </div>
+
     </div>
     
     <!-- Нижняя часть -->
@@ -80,16 +83,16 @@
     </div>
   </div>
 </footer>
-<!-- Slick Slider CSS -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 
-<!-- Slick Slider JS -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
 jQuery(document).ready(function($) {
-    // Запускаем слайдер
+  
     $('.work-steps__track').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -111,21 +114,21 @@ jQuery(document).ready(function($) {
         ]
     });
 
-    // Функция обновления цвета цифр
+    
     function updateNumbers() {
-        // Сначала все цифры делаем серыми
+       
         $('.work-steps__card-number').css('color', '#838383');
         
-        // Находим центральный слайд и делаем его цифру красной
+        
         setTimeout(function() {
             $('.slick-center .work-steps__card-number').css('color', '#900008');
         }, 100);
     }
 
-    // При загрузке
+    
     setTimeout(updateNumbers, 200);
 
-    // При смене слайда
+    
     $('.work-steps__track').on('afterChange', function() {
         updateNumbers();
     });
